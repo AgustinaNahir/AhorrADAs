@@ -18,6 +18,9 @@ const aReport = document.createElement('a');
 const iconBalance = document.createElement('i');
 const iconCategory = document.createElement('i');
 const iconReport = document.createElement('i');
+iconBalance.classList.add('fas','fa-chart-line', 'mr-2');
+iconCategory.classList.add('fas','fa-tag', 'mr-2');
+iconReport.classList.add('fas','fa-chart-pie','mr-2');
 
 aBalance.appendChild(iconBalance);
 aCategory.appendChild(iconCategory);
@@ -48,7 +51,5 @@ reports.classList.add('nav-item', 'ms-3');
 categories.classList.add('nav-item', 'ms-3');
 balance.classList.add('nav-item', 'ms-3');
 
-iconBalance.classList.add('fas','fa-solid','fa-chart-column','me-1');
-iconCategory.classList.add('fas','fa-solid','fa-chart-column','me-1');
-iconReport.classList.add('fas','fa-solid','fa-chart-column','me-1');
+
 
